@@ -1,7 +1,6 @@
 package com.billy.interconn.monitor.alarmEngine.service;
 
 import com.billy.interconn.monitor.alarmEngine.entity.MonitorAlarmInfo;
-import com.haier.adp.sla.service.SlaInterfaceService;
 import com.billy.interconn.monitor.alarmEngine.dao.MonitorAlarmInfoDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
