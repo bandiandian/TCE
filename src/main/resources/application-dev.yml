@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://10.138.8.63:3306/
+monitor:
+  poolsize: 7
+  period: 5000 #单位毫秒
+  initTime: 1000 #单位毫秒
