@@ -1,0 +1,48 @@
+2017-03-30 16:21:00,777 DEBUG [main] o.a.i.l.LogFactory [LogFactory.java:135] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-03-30 16:21:40,688 DEBUG [main] o.a.i.l.LogFactory [LogFactory.java:135] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-03-30 16:23:39,145 DEBUG [main] o.a.i.l.LogFactory [LogFactory.java:135] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-03-30 16:23:39,962 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:839] alarm-pool - configuration:
+2017-03-30 16:23:39,966 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] allowPoolSuspension.............false
+2017-03-30 16:23:39,966 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] autoCommit......................true
+2017-03-30 16:23:39,967 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] catalog.........................null
+2017-03-30 16:23:39,967 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] connectionInitSql...............null
+2017-03-30 16:23:39,967 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] connectionTestQuery.............null
+2017-03-30 16:23:39,968 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] connectionTimeout...............30000
+2017-03-30 16:23:39,969 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] dataSource......................null
+2017-03-30 16:23:39,969 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] dataSourceClassName.............null
+2017-03-30 16:23:39,969 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] dataSourceJNDI..................null
+2017-03-30 16:23:39,970 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] dataSourceProperties............{password=<masked>}
+2017-03-30 16:23:39,971 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] driverClassName................."com.mysql.jdbc.Driver"
+2017-03-30 16:23:39,971 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] healthCheckProperties...........{}
+2017-03-30 16:23:39,972 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] healthCheckRegistry.............null
+2017-03-30 16:23:39,974 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] idleTimeout.....................60000
+2017-03-30 16:23:39,974 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] initializationFailFast..........true
+2017-03-30 16:23:39,975 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] isolateInternalQueries..........false
+2017-03-30 16:23:39,975 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] jdbc4ConnectionTest.............false
+2017-03-30 16:23:39,976 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] jdbcUrl........................."jdbc:mysql://10.138.8.63:3306/"
+2017-03-30 16:23:39,976 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] leakDetectionThreshold..........0
+2017-03-30 16:23:39,977 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] maxLifetime.....................1765060
+2017-03-30 16:23:39,977 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] maximumPoolSize.................15
+2017-03-30 16:23:39,977 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] metricRegistry..................null
+2017-03-30 16:23:39,978 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] metricsTrackerFactory...........null
+2017-03-30 16:23:39,978 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] minimumIdle.....................15
+2017-03-30 16:23:39,979 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] password........................<masked>
+2017-03-30 16:23:39,979 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] poolName........................"alarm-pool"
+2017-03-30 16:23:39,980 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] readOnly........................false
+2017-03-30 16:23:39,980 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] registerMbeans..................false
+2017-03-30 16:23:39,981 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] scheduledExecutorService........null
+2017-03-30 16:23:39,981 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] threadFactory...................null
+2017-03-30 16:23:39,982 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] transactionIsolation............null
+2017-03-30 16:23:39,982 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] username........................"root"
+2017-03-30 16:23:39,982 DEBUG [main] c.z.h.HikariConfig [HikariConfig.java:855] validationTimeout...............5000
+2017-03-30 16:23:39,983 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:93] alarm-pool - Started.
+2017-03-30 16:23:40,327 DEBUG [alarm-pool connection adder] c.z.h.p.HikariPool [HikariPool.java:458] alarm-pool - Added connection com.mysql.jdbc.JDBC4Connection@26f0b815
+2017-03-30 16:23:40,392 DEBUG [alarm-pool housekeeper] c.z.h.p.HikariPool [HikariPool.java:391] alarm-pool - Pool stats (total=1, active=1, idle=0, waiting=0)
+2017-03-30 16:23:40,405 INFO [Thread-1] c.z.h.p.HikariPool [HikariPool.java:214] alarm-pool - Close initiated...
+2017-03-30 16:23:40,405 DEBUG [Thread-1] c.z.h.p.HikariPool [HikariPool.java:391] alarm-pool - Before closing stats (total=1, active=0, idle=1, waiting=0)
+2017-03-30 16:23:40,409 DEBUG [alarm-pool connection closer] c.z.h.p.PoolBase [PoolBase.java:111] alarm-pool - Closing connection com.mysql.jdbc.JDBC4Connection@26f0b815: (connection evicted)
+2017-03-30 16:23:40,413 DEBUG [alarm-pool connection adder] c.z.h.p.HikariPool [HikariPool.java:458] alarm-pool - Added connection com.mysql.jdbc.JDBC4Connection@3222d1bf
+2017-03-30 16:23:40,414 DEBUG [alarm-pool connection adder] c.z.h.p.HikariPool [HikariPool.java:391] alarm-pool - After adding stats (total=1, active=0, idle=1, waiting=0)
+2017-03-30 16:23:40,415 DEBUG [alarm-pool connection closer] c.z.h.p.PoolBase [PoolBase.java:111] alarm-pool - Closing connection com.mysql.jdbc.JDBC4Connection@3222d1bf: (connection evicted)
+2017-03-30 16:23:40,416 DEBUG [Thread-1] c.z.h.p.HikariPool [HikariPool.java:391] alarm-pool - After closing stats (total=0, active=0, idle=0, waiting=0)
+2017-03-30 16:23:40,416 INFO [Thread-1] c.z.h.p.HikariPool [HikariPool.java:254] alarm-pool - Closed.
